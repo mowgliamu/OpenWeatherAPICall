@@ -18,7 +18,7 @@ from urllib3.util.retry import Retry
 n_days = int(sys.argv[1])
 
 # API Key for openweather
-API_KEY = '698d082ebd2186bc8a24cf1d9a03ad7e'
+API_KEY = ''
 
 # I/O Filenames
 logFileName = 'logging_data'
