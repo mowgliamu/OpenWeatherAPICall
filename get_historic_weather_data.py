@@ -8,7 +8,6 @@ import contextlib
 import subprocess
 import configparser
 import http.client as http_client
-from geopy import geocoders
 from datetime import datetime
 from http.client import HTTPConnection
 from requests.adapters import HTTPAdapter
