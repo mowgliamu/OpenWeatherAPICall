@@ -1,0 +1,4 @@
+geopy==2.2.0
+requests==2.22.0
+google-cloud-bigquery==1.27.2
+google-cloud-storage~=1.42.3

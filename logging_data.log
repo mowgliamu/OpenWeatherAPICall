@@ -1,0 +1,13 @@
+2021-10-30 13:54:34 [MainThread  ] [DEBUG]  Starting new HTTPS connection (1): api.openweathermap.org:443
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  send: b'GET /data/2.5/onecall/timemachine?lat=52.52&lon=13.4&units=metric&dt=1635508474&appid=698d082ebd2186bc8a24cf1d9a03ad7e HTTP/1.1\r\nHost: api.openweathermap.org\r\nUser-Agent: python-requests/2.26.0\r\nAccept-Encoding: gzip, deflate\r\nAccept: */*\r\nConnection: keep-alive\r\n\r\n'
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  reply: 'HTTP/1.1 200 OK\r\n'
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Server: openresty
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Date: Sat, 30 Oct 2021 11:54:35 GMT
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Content-Type: application/json; charset=utf-8
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Content-Length: 6692
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Connection: keep-alive
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: X-Cache-Key: /data/2.5/onecall/timemachine?dt=1635508474&lat=52.52&lon=13.4&units=metric
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Access-Control-Allow-Origin: *
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Access-Control-Allow-Credentials: true
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  header: Access-Control-Allow-Methods: GET, POST
+2021-10-30 13:54:35 [MainThread  ] [DEBUG]  https://api.openweathermap.org:443 "GET /data/2.5/onecall/timemachine?lat=52.52&lon=13.4&units=metric&dt=1635508474&appid=698d082ebd2186bc8a24cf1d9a03ad7e HTTP/1.1" 200 6692
