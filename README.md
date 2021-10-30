@@ -16,4 +16,4 @@ The python script is run to fetch the data from openweather API by running `pyth
 
 1. A Retry mechanism has been added using the urllib3 retry functionality which is quite helpful in the event of a `ConnectionTimeout` or other HTTP errors. The number of retries can be controlled by the `max_retries` parameter, while the timeout parameter can be controlled by the `DEFAULT_TIMEOUT` parameter.
 
-2. Logging has been used in context of http connection, and all the logs are stored in an output file `logging_data.txt` which can be explored after the execution is completed.
+2. Logging has been used in context of http connection, and all the logs are stored in an output file `logging_data.log` which can be explored after the execution is completed.

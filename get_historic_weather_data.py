@@ -198,7 +198,7 @@ def main(write_to_file=True):
 
     # Mount Timeout Adapter in conjunction with retry mechanism
     retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504], allowed_methods=["GET"])
-    http.mount("https://", TimeoutHTTPAdapter(timeout=2.0, max_retries=retries))
+    http.mount("https://", TimeoutHTTPAdapter(timeout=DEFAULT_TIMEOUT, max_retries=retries))
 
     # monkey-patch a `print` global into the http.client module; all calls to
     # print() in that module will then use our print_to_log implementation
